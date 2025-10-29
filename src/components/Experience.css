@@ -1,0 +1,134 @@
+.experience-section {
+  background-color: #0f0f1a;
+  color: white;
+  padding: 100px 10%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.experience-title {
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+/* Timeline base */
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 20px 0;
+}
+
+/* Center glowing line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(180deg, #6a11cb, #2575fc);
+  transform: translateX(-50%);
+  border-radius: 2px;
+  animation: glowLine 3s ease-in-out infinite alternate;
+}
+
+@keyframes glowLine {
+  from {
+    box-shadow: 0 0 15px #6a11cb;
+  }
+  to {
+    box-shadow: 0 0 25px #2575fc;
+  }
+}
+
+.timeline-item {
+  position: relative;
+  width: 45%;
+  background: #1a1a2e;
+  border-radius: 15px;
+  padding: 25px 30px;
+  margin: 50px 0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease;
+}
+
+.timeline-item.left {
+  left: 0;
+  text-align: left;
+}
+
+.timeline-item.right {
+  left: 55%;
+  text-align: left;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 25px;
+  left: 100%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(37, 117, 252, 0.6);
+  z-index: 2;
+}
+
+.timeline-item.right .timeline-dot {
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.timeline-item:hover {
+  background: #202038;
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(37, 117, 252, 0.3);
+}
+
+
+.timeline-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.timeline-content h4 {
+  font-size: 1.2rem;
+  color: #6a11cb;
+  margin-bottom: 8px;
+}
+
+.timeline-period {
+  display: inline-block;
+  font-size: 0.95rem;
+  color: #999;
+  margin-bottom: 12px;
+}
+
+.timeline-content p {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 900px) {
+  .timeline::before {
+    left: 10px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    left: 0 !important;
+    text-align: left;
+    padding-left: 40px;
+  }
+
+  .timeline-dot {
+    left: 10px !important;
+  }
+}
