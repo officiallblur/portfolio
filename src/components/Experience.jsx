@@ -19,7 +19,7 @@ const experiences = [
       "Taught HTML, CSS, JavaScript and PHP to aspiring developers, Developed curriculum and learning materials for fullstack development and i also mentored students through projects and career development.",
   },
   {
-    role: "Web Developer (Intern)",
+    role: "Trainee",
     company: "Industrial Training Fund (ITF)",
     period: "Sep 2022 – Mar 2023",
     description:
