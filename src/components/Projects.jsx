@@ -8,12 +8,12 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Sportily (Spotify Clone)",
+      title: "Resume Craft",
       description:
-        "A full-featured Spotify-like web app built with React and Spotify Web API integration, including authentication, playback, playlists, and search features.",
-      image: "spotify-clone.png",
-      github: "https://github.com/officiallblur/spotify-clone",
-      demo: "https://spotify-clone-sooty-eight.vercel.app/",
+        "A full-featured Resume-builder web app built with React and typescript, including authentication,  and AI features.",
+      image: "resume-craft.png",
+      github: "https://github.com/officiallblur/portfolio.git",
+      demo: "https://portfolio-mu-silk-45.vercel.app/",
     },
 
     {
@@ -25,12 +25,12 @@ const Projects = () => {
       demo: "https://funbox-blue.vercel.app",
     },
     {
-      title: "Instagram-clone",
+      title: "Codexis",
       description:
-        "A clone of instagram mobile ui with some functionalities working perfectly. using html, tailwindcss, and typescript",
-      image: "instagram-clone.png",
-      github: "https://github.com/officiallblur/instagram-clone",
-      demo: "https://instagram-clone-silk-kappa.vercel.app/",
+        "A learning application mobile ui with all functionalities working perfectly. using React, tailwindcss, and typescript",
+      image: "Codexis.png",
+      github: "https://github.com/officiallblur/codexis.git",
+      demo: "https://codexis-seven.vercel.app/",
     },
   ];
 

@@ -22,7 +22,7 @@ const About = () => {
         </Reveal>
         <Reveal direction="right" delay={0.2}>
           <div className="about-text">
-            <h3>Software Engineer & Web Developer</h3>
+            <h3>Software Engineer </h3>
             <p>
               I'm a developer who loves transforming ideas into visually stunning and functional
               applications using React, Node.js, APIs, and cutting-edge design.
