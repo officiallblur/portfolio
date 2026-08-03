@@ -5,9 +5,9 @@ import "./Experience.css"
 
 const experiences = [
   {
-    role: "QA specialist & reactjs (Intern)",
+    role: "Frontend Developer",
     company: "Barnksforte Technologies",
-    period: "Mar 2025 – Present",
+    period: "Feb 2026 – Present",
     description:
       "Developed responsive and scalable user interfaces using React.js and modern frontend tools also acquired Knowledge on FrontEnd Development using React, Typescript and Knowledge in Quality Assurance(QA).",
   },

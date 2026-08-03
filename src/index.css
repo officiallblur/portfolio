@@ -138,6 +138,7 @@ body {
   padding: 5px;
   transition: transform 0.4s ease;
   box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+  object-fit: cover;
 }
 
 .about-img img {
